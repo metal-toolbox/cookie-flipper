@@ -1,6 +1,6 @@
 module github.com/metal-toolbox/cookieflipper
 
-go 1.20
+go 1.23.0
 
 require (
 	github.com/banzaicloud/logrus-runtime-formatter v0.0.0-20190729070250-5ae5475bae5e
@@ -9,8 +9,8 @@ require (
 	github.com/jeremywohl/flatten v1.0.1
 	github.com/metal-toolbox/conditionorc v1.0.0
 	github.com/mitchellh/mapstructure v1.5.0
-	github.com/nats-io/nats-server/v2 v2.9.20
-	github.com/nats-io/nats.go v1.28.0
+	github.com/nats-io/nats-server/v2 v2.10.27
+	github.com/nats-io/nats.go v1.39.1
 	github.com/pkg/errors v0.9.1
 	github.com/prometheus/client_golang v1.16.0
 	github.com/sirupsen/logrus v1.9.3
@@ -34,12 +34,12 @@ require (
 	github.com/hashicorp/go-multierror v1.1.1 // indirect
 	github.com/hashicorp/hcl v1.0.0 // indirect
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect
-	github.com/klauspost/compress v1.16.5 // indirect
+	github.com/klauspost/compress v1.18.0 // indirect
 	github.com/magiconair/properties v1.8.7 // indirect
 	github.com/matttproud/golang_protobuf_extensions v1.0.4 // indirect
-	github.com/minio/highwayhash v1.0.2 // indirect
-	github.com/nats-io/jwt/v2 v2.4.1 // indirect
-	github.com/nats-io/nkeys v0.4.4 // indirect
+	github.com/minio/highwayhash v1.0.3 // indirect
+	github.com/nats-io/jwt/v2 v2.7.3 // indirect
+	github.com/nats-io/nkeys v0.4.10 // indirect
 	github.com/nats-io/nuid v1.0.1 // indirect
 	github.com/pelletier/go-toml/v2 v2.0.8 // indirect
 	github.com/prometheus/client_model v0.3.0 // indirect
@@ -56,12 +56,12 @@ require (
 	go.opentelemetry.io/otel/metric v1.16.0 // indirect
 	go.opentelemetry.io/otel/sdk v1.16.0 // indirect
 	go.opentelemetry.io/proto/otlp v0.19.0 // indirect
-	golang.org/x/crypto v0.9.0 // indirect
+	golang.org/x/crypto v0.34.0 // indirect
 	golang.org/x/exp v0.0.0-20230519143937-03e91628a987 // indirect
-	golang.org/x/net v0.10.0 // indirect
-	golang.org/x/sys v0.8.0 // indirect
-	golang.org/x/text v0.9.0 // indirect
-	golang.org/x/time v0.3.0 // indirect
+	golang.org/x/net v0.21.0 // indirect
+	golang.org/x/sys v0.30.0 // indirect
+	golang.org/x/text v0.22.0 // indirect
+	golang.org/x/time v0.10.0 // indirect
 	google.golang.org/genproto v0.0.0-20230410155749-daa745c078e1 // indirect
 	google.golang.org/grpc v1.55.0 // indirect
 	google.golang.org/protobuf v1.30.0 // indirect
